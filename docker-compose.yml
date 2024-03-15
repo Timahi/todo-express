@@ -1,0 +1,7 @@
+services:
+    db:
+        image: mariadb
+        environment:
+            MARIADB_ROOT_PASSWORD: root
+        expose:
+            - 3306:3306
