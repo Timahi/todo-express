@@ -46,8 +46,8 @@ npm run start
 
 ```json
 {
-	"username": "username",
-	"password": "password"
+  "username": "username",
+  "password": "password"
 }
 ```
 
@@ -55,8 +55,8 @@ npm run start
 
 ```json
 {
-	"id": 1,
-	"username": "username"
+  "id": 1,
+  "username": "username"
 }
 ```
 
@@ -64,8 +64,8 @@ npm run start
 
 ```json
 {
-	"username": "username",
-	"password": "password"
+  "username": "username",
+  "password": "password"
 }
 ```
 
@@ -73,11 +73,11 @@ npm run start
 
 ```json
 {
-	"user": {
-		"id": 1,
-		"username": "username"
-	},
-	"access_token": "<jwt-bearer-token>"
+  "user": {
+    "id": 1,
+    "username": "username"
+  },
+  "access_token": "<jwt-bearer-token>"
 }
 ```
 
@@ -87,16 +87,16 @@ npm run start
 
 ```json
 [
-	{
-		"id": 1,
-		"title": "Todo 1",
-		"done": false
-	},
-	{
-		"id": 2,
-		"title": "Todo 2",
-		"done": true
-	}
+  {
+    "id": 1,
+    "title": "Todo 1",
+    "done": false
+  },
+  {
+    "id": 2,
+    "title": "Todo 2",
+    "done": true
+  }
 ]
 ```
 
@@ -104,7 +104,7 @@ npm run start
 
 ```json
 {
-	"title": "Todo 3"
+  "title": "Todo 3"
 }
 ```
 
@@ -112,9 +112,9 @@ npm run start
 
 ```json
 {
-	"id": 3,
-	"title": "Todo 3",
-	"done": false
+  "id": 3,
+  "title": "Todo 3",
+  "done": false
 }
 ```
 
@@ -122,8 +122,8 @@ npm run start
 
 ```json
 {
-	"title": "<new-title>",
-	"done": true
+  "title": "<new-title>",
+  "done": true
 }
 ```
 
@@ -131,9 +131,9 @@ npm run start
 
 ```json
 {
-	"id": 3,
-	"title": "Todo 3",
-	"done": true
+  "id": 3,
+  "title": "Todo 3",
+  "done": true
 }
 ```
 
@@ -156,9 +156,9 @@ The API returns standard HTTP status codes and error messages in JSON format.
 
 ```json
 {
-	"error": {
-		"status": 404,
-		"message": "Not found"
-	}
+  "error": {
+    "status": 404,
+    "message": "Not found"
+  }
 }
 ```
